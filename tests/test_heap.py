@@ -5,7 +5,7 @@
 
 import pytest
 import operator
-from snowowl.heap import Heap, HeapType
+from snowowl import Heap, HeapType
 
 
 class Node:
@@ -96,3 +96,14 @@ def test_case_4():
     assert is_heap_property_satisfied(array) is True
     with pytest.raises(IndexError):
         assert min_heap.remove()
+
+
+def test_case_5() -> None:
+    array = [5, 10, 2, 1, 20]
+    max_heap = Heap(array, HeapType.MAX)
+    assert is_heap_property_satisfied(array, HeapType.MAX) is True
+    max_heap.insert(76)
+    assert is_heap_property_satisfied(array, HeapType.MAX) is True
+    assert max_heap.peek() == 76
+    assert max_heap.remove() == 76
+    assert is_heap_property_satisfied(array, HeapType.MAX) is True
