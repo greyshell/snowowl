@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "snowowl"
-version = "0.0.2"
+version = "0.0.3"
 description = "A collection of common data structures"
 readme = "README.md"
 homepage = "https://github.com/greyshell/snowowl"
