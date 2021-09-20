@@ -2,7 +2,7 @@
 
 A collection of common data structures
 
-# How to use
+## Example: How to use Heap library
 
 ```
 #!/usr/bin/env python3

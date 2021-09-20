@@ -1,7 +1,6 @@
 # Tasks
 
-- confim the project structure
-- learn pytest, replace unittest with pytest
+- 
 
 ## Commands
 ```
