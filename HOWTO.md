@@ -1,39 +1,60 @@
 # Guideline
+
+- Install dependencies
 ```
-# install dependencies
+ pyenv virtualenv 3.9.7 snowowl
 curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python -
 pip install bumpversion
+```
 
-# get the virtual env information
+- Get the virtual env information
+```
 poetry env info
+```
 
-# add the dev dependency
+- Add the dev dependency
+```
 poetry add -D pytest
+```
 
-# add the project dependency
+- Add the project dependency
+```
 poetry add <package_name>
+```
 
-# installing the build dependency
+- Installing the build dependency
+```
 poetry install  
+```
 
-# run the pytest
+- Run the pytest
+```
 cd tests/
 poetry run pytest test_heap.py
+```
 
-# freeze the requirements
+- Freeze the requirements
+```
 pip freeze > requirements.txt
+```
 
-# commit before bumping up the version
+- Commit and push the code before bumping up the version
+```
 git commit -am "message"
+git push
+```
 
-# git push
-
-# bump up the version
+- Bump up the version
+```
 bumpversion major
+```
 
-# build project
+- Build the project library
+```
 poetry build
+```
 
-# publish project
+- Publish the project
+```
 poetry publish
 ```
