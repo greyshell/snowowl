@@ -2,7 +2,7 @@
 
 - Install dependencies
 ```
- pyenv virtualenv 3.9.7 snowowl
+pyenv virtualenv 3.9.7 snowowl
 curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python -
 pip install bumpversion
 ```
