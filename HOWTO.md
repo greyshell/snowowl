@@ -1,4 +1,4 @@
-# Guideline
+# Dev Guideline
 
 - Install dependencies
 ```
@@ -41,7 +41,8 @@ pip freeze > requirements.txt
 - Commit and push the code before bumping up the version
 ```
 git commit -am "message"
-git push
+git push  # push to dev branch
+# create a pull request to merge changes to master branch
 ```
 
 - Bump up the version
