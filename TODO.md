@@ -7,6 +7,3 @@
 - implement index based priority queue
 - implement red black tree
 - implement bloom filter
-- trying to update directly from master branch
-- hello
-- another
