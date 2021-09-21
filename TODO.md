@@ -2,7 +2,7 @@
 
 - check what gitHub action can be integrated
   - how to use coverage images, what are other options
-  - intregate slack workflow -> pull request will be successful when all tests passes, 
+  - add slack workflow -> pull request will be successful when all tests passes, 
   - provide slack notification
 - use readmedocs for detailed documentation
 - refactor and review the graph lib
